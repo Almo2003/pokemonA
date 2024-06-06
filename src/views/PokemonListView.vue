@@ -21,7 +21,7 @@
   <nav aria-label="Page navigation" class="navegator">
     <ul class="pagination mt-3 justify-content-center">
       <li class="page-item" :class="{ disabled: currentPage === 1 }">
-        <a class="page-link" href="#" @click.prevent="prevPage">Previous</a>
+        <a class="page-link" href="#" @click.prevent="prevPage">Ant</a>
       </li>
       <li class="page-item">
         <a class="page-link" href="#" :class="{ active: currentPage === 1 }" @click.prevent="goToPage(1)">1</a>
