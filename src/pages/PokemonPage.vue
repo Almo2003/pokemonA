@@ -43,7 +43,7 @@
         this.showPokemon = true;
         if (pokemonId === this.pokemon.id) {
           this.msg = `¡Correcto!`;
-          //this.msg = `¡Correcto! Es ${this.pokemon.name}`;
+
         } else {
           this.msg = `¡Incorrecto!`+
           `el pokemon es: ${this.pokemon.name}`;
