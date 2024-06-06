@@ -2,7 +2,7 @@
 <template>
   <div v-if="pokemon" class="pokemon-detail">
     <h1>{{ pokemon.name }}</h1>
-    <img :src="pokemon.sprites.front_default" :alt="'Imagen de ' + pokemon.name" class="pokemon-image"/>
+    <img :src="pokemon.sprites.front_default" :alt="'Imagen De ' + pokemon.name" class="pokemon-image"/>
     <p><strong>Altura:</strong> {{ pokemon.height }}</p>
     <p><strong>Peso:</strong> {{ pokemon.weight }}</p>
     <p><strong>Tipo:</strong>
